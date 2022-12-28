@@ -47,12 +47,15 @@
 // console.log(count);
 
 // -Вивести суму лише парних чисел в діапазоні від 30 до 80
+// Виправила це завдання
 
-// let count = 0;
-// for (let num = 30; num<81; num += 1) {
-//   count = count + (num % 2);
-// }
-// console.log(count);
+let count = 0;
+for (let l = 30; l <= 80; l++) {
+  if (l % 2 === 0) {
+    count += l;
+  }
+}
+console.log(count);
 
 //- Вивести всі числа в діапазоні від 100 до 200 кратні 3
 
@@ -104,11 +107,11 @@
 
 // -Надрукувати повну таблицю множення від 1 до 10
 
-let count = '';
-for (let firstNum = 1; firstNum<11; firstNum += 1){
-  for (let secondNum = 1; secondNum<11; secondNum += 1) {
-    count = `${count}${firstNum}*${secondNum}=${firstNum * secondNum}\n`
-  }
-  count += `\n`;
-}
-console.log(count);
+// let count = '';
+// for (let firstNum = 1; firstNum<11; firstNum += 1){
+//   for (let secondNum = 1; secondNum<11; secondNum += 1) {
+//     count = `${count}${firstNum}*${secondNum}=${firstNum * secondNum}\n`
+//   }
+//   count += `\n`;
+// }
+// console.log(count);
